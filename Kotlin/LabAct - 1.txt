@@ -1,0 +1,30 @@
+fun main() {
+    
+    val age = 19
+    val year = 365.24
+    val Agetoday = age * year
+    val border = "==%"
+    val timesToRepeat = 8
+    
+    printBorder(border, timesToRepeat)
+    print("Happy Birthday November! \n")
+    printBorder(border, timesToRepeat)
+    print("You are ${Agetoday} days old \n")
+    print("19 is the best age to learn Kotlin! \n")
+    
+    //Let's print a cake!
+    println("   ,,,,,   ")
+    println("   |||||   ")
+    println(" =========")
+    println("@@@@@@@@@@@")
+    println("{~@~@~@~@~}")
+    println("@@@@@@@@@@@")
+    println("")
+}
+
+fun printBorder(border:String, timesToRepeat:Int){
+    repeat(timesToRepeat){
+        print(border)
+    }
+    println()
+}
