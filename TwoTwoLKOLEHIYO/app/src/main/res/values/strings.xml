@@ -7,4 +7,14 @@
     <string name="PASSWORD">Password</string>
     <string name="LOGIN">Login</string>
     <string name="USERNAME">Username</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_ac_nibh_nec_eros_tempor_lacinia_eu_et_nibh_donec_eget_enim_tincidunt_blandit_turpis_sed_gravida_orci">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nibh nec eros tempor lacinia eu et nibh. Donec eget enim tincidunt, blandit turpis sed, gravida orci.</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="john_smith">John Smith</string>
+    <string name="TODO">TODO</string>
+    <string name="EDIT_PROFILE">Edit Profile</string>
+    <string name="grade_10_section_a">Grade 10 - Section A</string>
+    <string name="_123456">123456</string>
+    <string name="TODO_">TODO</string>
+    <string name="ICT">STEM</string>
+    <string name="STUDENT_SCHEDULE">MY SCHEDULE</string>
 </resources>
