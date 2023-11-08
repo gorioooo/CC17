@@ -17,4 +17,8 @@
     <string name="TODO_">TODO</string>
     <string name="ICT">STEM</string>
     <string name="STUDENT_SCHEDULE">MY SCHEDULE</string>
+    <string name="select_subject">Select subject:</string>
+    <string name="TODOO">TODO</string>
+    <string name="click_here_to_visit_the_website">Click here to visit the website</string>
+    <string name="San_Vicente">San Vicente Liem de la Paz</string>
 </resources>

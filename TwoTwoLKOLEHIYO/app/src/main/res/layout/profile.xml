@@ -8,7 +8,6 @@
         android:id="@+id/profile_image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/profile_picture"
         android:contentDescription="@string/TODO_" />
 
     <TextView
@@ -43,17 +42,17 @@
         android:id="@+id/id_number_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="16dp"
         android:text="@string/_123456"
         android:textSize="16sp"
-        android:padding="16dp"
         tools:ignore="VisualLintBounds" />
 
     <Button
         android:id="@+id/edit_profile_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/EDIT_PROFILE"
         android:layout_margin="16dp"
+        android:text="@string/EDIT_PROFILE"
         tools:ignore="VisualLintButtonSize" />
 
 </LinearLayout>
