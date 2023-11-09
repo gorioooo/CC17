@@ -21,4 +21,18 @@
     <string name="TODOO">TODO</string>
     <string name="click_here_to_visit_the_website">Click here to visit the website</string>
     <string name="San_Vicente">San Vicente Liem de la Paz</string>
+    <string name="facebook">Facebook</string>
+    <string name="website">Website</string>
+    <string name="youtube">Youtube</string>
+    <string name="socials">SOCIALS</string>
+    <string name="TODOOO">TODO</string>
+    <string name="colegio_de_san_juan_de_letran_manaoag">Colegio de San Juan de Letran - Manaoag</string>
+    <string name="www_letran_manaoag_edu_ph">www.letran-manaoag.edu.ph</string>
+    <string name="letranmanaoag_1947">LetranManaoag 1947</string>
+    <string name="grade_section">Grade 10, Section A</string>
+    <string name="STRAND">Science and Technology</string>
+    <string name="name">Username</string>
+    <string name="LOGINN">Login</string>
+    <string name="USERNAMEE">Username</string>
+    <string name="PASSWORDD">Password</string>
 </resources>

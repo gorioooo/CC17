@@ -13,6 +13,24 @@
         android:theme="@style/Theme.TwoTwoLKOLEHIYO"
         tools:targetApi="31">
         <activity
+            android:name=".socials_page"
+            android:exported="false" />
+        <activity
+            android:name=".vicente_page"
+            android:exported="false" />
+        <activity
+            android:name=".schedule_page"
+            android:exported="false" />
+        <activity
+            android:name=".grade_page"
+            android:exported="false" />
+        <activity
+            android:name=".profile_page"
+            android:exported="false" />
+        <activity
+            android:name=".login_page"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

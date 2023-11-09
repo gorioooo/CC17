@@ -1,13 +1,12 @@
 package com.example.twotwo_lkolehiyo
 
-import android.view.LayoutInflater
-
-class ActivityMainBinding {
-    val root: Any = TODO()
+abstract class ActivityMainBinding {
+    abstract val loginButton: Any
+    abstract val username: Any
     val password: Any = TODO()
 
     companion object {
-        fun inflate(layoutInflater: LayoutInflater) {
+        fun inflate() {
 
         }
     }
