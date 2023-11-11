@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:padding="16dp"
+        android:text="John Smith"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/grade_section_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="16dp"
+        android:text="Grade and Section"
+        android:textSize="16sp"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/strand_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Strand"
+        android:textSize="16sp"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/id_number_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="ID Number"
+        android:textSize="16sp"
+        tools:ignore="VisualLintBounds" />
+
+
+</LinearLayout>
