@@ -6,4 +6,7 @@
     <string name="password">Password</string>
     <string name="username">Username</string>
     <string name="TODO">TODO</string>
+    <string name="grade_and_section">GRADE AND SECTION</string>
+    <string name="id_number">ID NUMBER</string>
+    <string name="strand">STRAND</string>
 </resources>
