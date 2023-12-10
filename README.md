@@ -1,2 +1,2 @@
 # CC17
-Kotlin Activities
+CC17 MOB DEV APPLICATION
