@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <item name="nav_Schedule" type="id" />
+    <item name="nav_Profile" type="id" />
+    <item name="nav_Grades" type="id" />
+    <item name="nav_Calendar" type="id" />
+    <item name="nav_Offices" type="id" />
+    <item name="nav_Vicente" type="id" />
+    <item name="nav_Socials" type="id" />
 </resources>

@@ -1,14 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileFragment">
+    android:background="@drawable/bgp"
+    android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/name_textview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:padding="16dp"
+        android:text="NAME"
+        android:textAlignment="center"
+        android:textColor="@color/letran"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,VisualLintBounds" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/grade_section_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:padding="16dp"
+        android:text="@string/grade_and_section"
+        android:textAlignment="center"
+        android:textColor="@color/letran"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/strand_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/strand"
+        android:textAlignment="center"
+        android:textColor="@color/letran"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/id_number_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/id_number"
+        android:textAlignment="center"
+        android:textColor="@color/letran"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="VisualLintBounds" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/cross"
+        android:layout_marginTop="30dp"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+
+</LinearLayout>

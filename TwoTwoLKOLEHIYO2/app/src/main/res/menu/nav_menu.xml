@@ -1,4 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/baseline_person_24"
+            android:title="@string/profile"/>
+
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/baseline_access_time_filled_24"
+            android:title="@string/schedules"/>
+
+        <item
+            android:id="@+id/nav_grades"
+            android:icon="@drawable/baseline_grade_24"
+            android:title="@string/gradess"/>
+
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/baseline_calendar_month_24"
+            android:title="@string/calendar"/>
+
+        <item
+            android:id="@+id/nav_offices"
+            android:icon="@drawable/baseline_home_work_24"
+            android:title="@string/offices"/>
+
+        <item
+            android:id="@+id/nav_vicente"
+            android:icon="@drawable/baseline_vicenete_24"
+            android:title="@string/san_vicente"/>
+
+        <item
+            android:id="@+id/nav_socials"
+            android:icon="@drawable/baseline_socials_24"
+            android:title="@string/socialss"/>
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_exit_to_app_24"
+                android:title="@string/logout"/>
+        </menu>
+
+    </item>
 
 </menu>
