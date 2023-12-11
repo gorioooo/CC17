@@ -62,4 +62,13 @@
     <string name="computer_laboratory">Computer Laboratory</string>
     <string name="guidance_office_and_clinic">Guidance Office and Clinic</string>
     <string name="academic_office">Academic Office</string>
+    <string name="calendar_of_events">Calendar of Events</string>
+    <string name="calendar_event_1">Calendar Event 1</string>
+    <string name="calendar_event_2">Calendar Event 2</string>
+    <string name="calendar_event_3">Calendar Event 3</string>
+    <string name="calendar_event_4">Calendar Event 4</string>
+    <string name="calendar_event_5">Calendar Event 5</string>
+    <string name="calendar_event_6">Calendar Event 6</string>
+    <string name="button">Button</string>
+    <string name="add_reminders_for_you">Add Reminders for you</string>
 </resources>
