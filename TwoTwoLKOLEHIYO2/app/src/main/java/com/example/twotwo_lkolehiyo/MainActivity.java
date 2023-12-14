@@ -43,10 +43,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ProfileFragment()).commit();
             navigationView.setCheckedItem(R.id.nav_Profile);
-
-            super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_main);
         }
+
     }
 
     public void openLink(View view) {

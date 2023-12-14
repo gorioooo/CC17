@@ -1,4 +1,5 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,19 +17,20 @@
         android:textColor="@color/letran"
         android:textSize="40sp"
         android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText,VisualLintBounds" />
 
     <TextView
         android:id="@+id/grade_section_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
         android:padding="16dp"
         android:text="@string/grade_and_section"
         android:textAlignment="center"
         android:textColor="@color/letran"
         android:textSize="25sp"
         android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/name_textview"
         tools:ignore="VisualLintBounds" />
 
     <TextView
@@ -41,6 +43,7 @@
         android:textColor="@color/letran"
         android:textSize="25sp"
         android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/grade_section_textview"
         tools:ignore="VisualLintBounds" />
 
     <TextView
@@ -53,17 +56,18 @@
         android:textColor="@color/letran"
         android:textSize="25sp"
         android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/strand_textview"
         tools:ignore="VisualLintBounds" />
 
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="TODO"
         android:scaleType="center"
         android:src="@drawable/cross"
-        android:layout_marginTop="30dp"
-        android:contentDescription="TODO"
+        app:layout_constraintTop_toBottomOf="@+id/id_number_textview"
         tools:ignore="ContentDescription,HardcodedText" />
 
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
